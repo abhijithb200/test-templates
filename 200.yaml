@@ -13,4 +13,4 @@ requests:
     matchers:
       - type: status
         status:
-          - 200
+          - 403
