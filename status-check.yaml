@@ -1,4 +1,4 @@
-id: status-200-check
+id: status-200-checks
 
 info:
   name: HTTP 200 OK Check
