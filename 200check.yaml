@@ -1,0 +1,16 @@
+id: status-200-checks
+
+info:
+  name: HTTP 200 OK Check
+  author: you
+  severity: info
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    matchers:
+      - type: status
+        status:
+          - 403
